@@ -1,0 +1,107 @@
+﻿@model Restaurants.Models.menu
+
+@{
+    ViewBag.Title = "Restaurante";
+}
+
+<div class="container my-2">
+    <div class="row d-flex justify-content-center">
+        <div class="col-12 col-md-10 text-center">
+            <img src="~/Content/img/Marca de Agua.png" alt="Alternate Text" id="logo" />
+            <p>
+                Organizador del menú, controlar los pedidos, numero de mesa y quien atendio, para mantener la atencion rapida y correcta de nuestros usuarios.
+            </p>
+            <img src="~/Content/img/Separador.png" alt="Alternate Text" id="separador" />
+            <div class="row d-flex justify-content-center mt-3 align-items-center">
+                <div class="col-2"><button type="button" class="btn btn-dark">@Html.ActionLink("Ingresa tu Plato", "", "")</button></div>
+                <div class="col-2">ó</div>
+                <div class="col-2"><button type="button" class="btn btn-dark">@Html.ActionLink("Consulta tu restaurante", "", "")</button></div>
+            </div>
+        </div>
+        <div class="row align-items-center justify-content-center d-flex my-5">
+            <div class="col-8">
+                <img src="~/Content/img/DSC_0695.jpg" alt="Alternate Text" class="w-100 img-fluid" />
+            </div>
+        </div>
+
+        <div class="row align-items-center justify-content-center d-flex mt-5">
+            <div class="col-2 d-flex justify-content-center">
+                <h3 class="Staac">Platos Estrellas !</h3>
+            </div>
+            <div class="col-10">
+                <hr />
+            </div>
+        </div>
+
+        <div class="row align-items-center justify-content-center d-flex mt-5">
+            <div class="col-11">
+                <div class="row align-items-center justify-content-center d-flex item-restaurant">
+                    <div class="col-4">
+                        <img src="~/Content/img/DSC_0531.jpg" alt="Alternate Text" class="w-100 img-fluid" />
+                    </div>
+                    <div class="col-8">
+                        <h3>Ceviche Mixto</h3>
+                        <p>300 gr de chicharrón y chorizo de cerdo, bañados en salsa criolla, con zumo de limón y patacones, acompañados de sour cream de la casa.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center justify-content-center d-flex mt-5">
+            <div class="col-11">
+                <div class="row align-items-center justify-content-center d-flex item-restaurant">
+                    <div class="col-8">
+                        <h3>Hamburguesa Texas</h3>
+                        <p>Pan brioche, rúgula, costilla de cerdo ahumada al barril en salsa BBQ con nuestro toque secreto, queso philadelphia, aros de cebolla apanados y papa rústica bañada en salsa de especies. </p>
+                    </div>
+                    <div class="col-4">
+                        <img src="~/Content/img/DSC_7494.jpg" alt="Alternate Text" class="w-100 img-fluid" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center justify-content-center d-flex mt-5">
+            <div class="col-11">
+                <div class="row align-items-center justify-content-center d-flex item-restaurant">
+                    <div class="col-4">
+                        <img src="~/Content/img/DSC_7589.jpg" alt="Alternate Text" class="w-100 img-fluid" />
+                    </div>
+                    <div class="col-8">
+                        <h3>Patatas Burgos</h3>
+                        <p>Papas a la francesa, 1 proteína, pico de gallo, crema de leche y salsa de queso cheddar.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row align-items-center justify-content-center d-flex mt-5">
+            <div class="col-10">
+                <hr />
+            </div>
+            <div class="col-2 d-flex justify-content-center">
+                <h3 class="Staac">Otros Productos</h3>
+            </div>
+        </div>
+        <div class="row align-items-center justify-content-center d-flex mt-5 row-cols-1 row-cols-md-4">
+            <div class="col">
+                <img src="~/Content/img/1638214201448.jpg" alt="Alternate Text" class="w-100 img-fluid mb-3" />
+            </div>
+            <div class="col">
+                <img src="~/Content/img/1638230916897.jpg" alt="Alternate Text" class="w-100 img-fluid mb-3" />
+            </div>
+            <div class="col">
+                <img src="~/Content/img/DSC_0499.jpg" alt="Alternate Text" class="w-100 img-fluid mb-3" />
+            </div>
+            <div class="col">
+                <img src="~/Content/img/DSC_0590.jpg" alt="Alternate Text" class="w-100 img-fluid mb-3" />
+            </div>
+            <div class="col">
+                <img src="~/Content/img/DSC_0629.jpg" alt="Alternate Text" class="w-100 img-fluid mb-3" />
+            </div>
+            <div class="col">
+                <img src="~/Content/img/DSC_0766.jpg" alt="Alternate Text" class="w-100 img-fluid mb-3" />
+            </div>
+        </div>
+
+
+    </div>
+</div>

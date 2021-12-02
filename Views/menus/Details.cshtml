@@ -1,0 +1,50 @@
+﻿@model Restaurants.Models.menu
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>menu</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nombreplato)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nombreplato)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.numeromesa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.numeromesa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.valor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.valor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nombremesero)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nombremesero)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.idplato }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

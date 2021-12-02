@@ -1,0 +1,40 @@
+﻿body {
+    background-color: #FFF1F1;
+    font-family: 'Open Sans', sans-serif;
+}
+p {
+    font-size: 24px;
+    font-weight:300;
+}
+h1{
+    font-family: 'Staatliches', cursive;
+}
+button a{
+    text-decoration: none !important;
+    color: white !important;
+}
+h3{
+    margin: 0;
+}
+button{
+    font-size: 24px;
+    border-radius: 30px !important;
+    padding:10px 20px !important;
+}
+.item-restaurant p{
+    font-size: 18px;
+}
+footer p {
+    font-size: 18px;
+}
+#logo{
+    width:500px;
+}
+#separador{
+    width:200px;
+}
+.Staac{
+    color:gray;
+    font-family: 'Staatliches', cursive;
+    font-size: 35px;
+}
